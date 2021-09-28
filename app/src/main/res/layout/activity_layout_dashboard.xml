@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="9pt"
+    android:orientation="vertical">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12pt"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btnkuliner"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="KULINER"
+                                    android:textColor="@color/lingkaran_kuliner"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btnkuliner"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_kuliner"
+                                    android:drawableTop="@drawable/ic_kuliner"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="10dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btnwisata"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="WISATA"
+                                    android:textColor="@color/lingkaran_wisata"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btnwisata"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_wisata"
+                                    android:drawableTop="@drawable/ic_wisata"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="10dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btnbelanja"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="BELANJA"
+                                    android:textColor="@color/lingkaran_belanja"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btnbelanja"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_belanja"
+                                    android:drawableTop="@drawable/ic_belanja"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="9dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12pt"
+                    android:orientation="horizontal"
+                    android:paddingBottom="9dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="107dp">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btnhotel"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="HOTEL"
+                                    android:textColor="@color/lingkaran_hotel"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btnhotel"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_hotel"
+                                    android:drawableTop="@drawable/ic_hotel"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="7dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btnspbu"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="SPBU"
+                                    android:textColor="@color/lingkaran_spbu"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btnspbu"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:background="@drawable/lingkaran_spbu"
+                                    android:drawableTop="@drawable/ic_spbu"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="5dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btnkerajinan"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="KERAJINAN"
+                                    android:textColor="@color/lingkaran_kerajinan"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btnkerajinan"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:background="@drawable/lingkaran_kerajinan"
+                                    android:drawableTop="@drawable/ic_kerajinan"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12pt"
+                    android:orientation="horizontal"
+                    android:paddingBottom="9dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="10dp"
+                            android:orientation="vertical">
+
+
+
+
+                            <RelativeLayout
+                                android:layout_width="90dp"
+                                android:layout_height="95dp">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btntransport"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="TRANSPORTASI"
+                                    android:textColor="@color/lingkaran_transportasi"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btntransport"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_transportasi"
+                                    android:drawableTop="@drawable/ic_drive"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="5dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="20dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btntaman"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center"
+                                    android:text="SEKOLAH"
+                                    android:textColor="@color/lingkaran_fasilitas"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btntaman"
+                                    style="?android:attr/progressBarStyleHorizontal"
+
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_fasilitas"
+
+                                    android:drawableTop="@drawable/ic_fasilitas_umum"
+                                    android:gravity="center"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="5dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/btnibadah"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center"
+                                    android:text="TEMPAT IBADAH"
+                                    android:textColor="@color/lingkaran_belanja"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+
+                                <Button
+                                    android:id="@+id/btnibadah"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_hotel"
+                                    android:drawableTop="@drawable/ic_tempat_ibadah"
+                                    android:gravity="center"
+                                    android:indeterminate="false"
+                                    android:onClick="onclick"
+                                    android:padding="7dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
